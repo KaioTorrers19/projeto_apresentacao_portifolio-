@@ -1,6 +1,7 @@
 *{
 margin: 0;
 padding: 0;
+box-sizing: border-box;
 }
 :root{
   --bg-button_url: url(assets/MoonStars.svg);
@@ -22,10 +23,13 @@ padding: 0;
    --bg-button_url: url(assets/Sun.svg);
  }
 body{
-  background: var(--bg-url) no-repeat top center/cover ;
+  background: var(--bg-url) no-repeat top center/cover;
+
   /* background-repeat: no-repeat ;
   background-position: top center;
   background-size: cover; */
+
+  background-attachment: fixed;
 }
 
 body *{
@@ -35,10 +39,11 @@ color: var(--text-color);
 
 
 #container{
+  margin-top: 56px;
   width: 360px;
   margin: auto;
   margin-top: 56px;
-
+  padding: 0 24px
 }
 /* Profile */
 #profile{
@@ -111,6 +116,8 @@ text-decoration: none;
 backdrop-filter: blur(4px);
 -webkit-backdrop-filter: blur(4px);
 transition: background 0.4s;
+max-width: 100%; 
+box-sizing: border-box;
 
 }
 
