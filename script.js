@@ -13,6 +13,6 @@ if(light.classList.contains("light")){
   img.setAttribute("alt", "Kaio com blusa preta e com colar com pingente de ouro com a cara mostrada de frente")
 }else{
 img.setAttribute("src", "assets/avatar.png")
-img.setAttribute("alt", "Foto de Kaio Torres com mão perto  da boca com um relógio com óculos escuro e rosto de perfil com fono de ouvido na orelha" )
+img.setAttribute("alt", "Foto de Kaio Torres com mão perto  da boca com um relógio com óculos escuro e rosto de perfil com fone de ouvido na orelha" )
 }
 };
